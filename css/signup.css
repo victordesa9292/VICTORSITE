@@ -1,0 +1,54 @@
+/* Css possui seletores e possui a sintaxe abaixo*/ 
+
+body{
+    font-family: arial, sans-serif;
+    background-image: url(../img/Lanche.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    background: linear-gradient(to bottom, #ffd700, #ffffff);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-container h2{
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+/*Container de entrada de texto*/
+.input-container{
+    margin-bottom: 15px;
+}
+/*Campo de entrada de texto*/
+.input-container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px, solid #ff0000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+input[type="submit"]:hover{
+    background-color: #a52a2a;
+}
