@@ -38,6 +38,7 @@ nav a{
 nav a:hover{
     color: #ffd700;
 }
+<<<<<<< HEAD
 main{
     display: flex;
     justify-content: center;
@@ -46,6 +47,10 @@ main{
     flex-wrap: wrap;
 }
 /*.destaque{
+=======
+/*1° campo de texto*/
+.destaque{
+>>>>>>> 334de51f2077237ffc1d6702ca19e9b67ea4b9e6
     background: linear-gradient(to right, #ffd700, #ffffff);
     color: rgb(255, 0, 0);
     text-align: center;
@@ -55,14 +60,26 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+/*texto do 1° campo*/
+>>>>>>> 334de51f2077237ffc1d6702ca19e9b67ea4b9e6
 .destaque h2{
     margin-top: 0;
     padding: 25px;
 }
+<<<<<<< HEAD
+=======
+/*paragrafo do 1° campo*/
+>>>>>>> 334de51f2077237ffc1d6702ca19e9b67ea4b9e6
 .destaque p{
     color: #000000;
     margin-top: 0;
 }
+<<<<<<< HEAD
+=======
+/*botão de cardapio do 1° campo*/
+>>>>>>> 334de51f2077237ffc1d6702ca19e9b67ea4b9e6
 .botao{
     display: inline-block;
     margin-top: 0px;
@@ -74,6 +91,7 @@ main{
     font-size: 1rem;
     transition: background 0.2s;
 }
+<<<<<<< HEAD
 .botao:hover{
     background-color: #a52a2a;
 }*/
@@ -111,9 +129,32 @@ main{
 /*Rodapé do site*/
 footer{
     background-color: #8b0000;
+=======
+/*mudar de cor ao passar o mouse(cardapio)*/
+.botao:hover{
+    background-color: #a52a2a;
+}
+/*2° campo de texto*/
+.sobre{
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+/*Rodapé do site*/
+footer{
+    background: #8b0000;
+>>>>>>> 334de51f2077237ffc1d6702ca19e9b67ea4b9e6
     color: #fff;
     text-align: center;
     padding: 12px 0;
     font-size: 0.9rem;
+<<<<<<< HEAD
+=======
+    position: fixed;
+    width: 100%;
+>>>>>>> 334de51f2077237ffc1d6702ca19e9b67ea4b9e6
     bottom: 0;
 }
